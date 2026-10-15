@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunCucumberTest" time="44.513" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunCucumberTest" time="49.414" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\juanr\AppData\Local\Temp\surefire9729817524279115574\surefirebooter-20261013220207389_3.jar C:\Users\juanr\AppData\Local\Temp\surefire9729817524279115574 2026-10-13T22-02-07_230-jvmRun1 surefire-20261013220207389_1tmp surefire_0-20261013220207389_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\juanr\AppData\Local\Temp\surefire14228402959523714938\surefirebooter-20261014192813360_3.jar C:\Users\juanr\AppData\Local\Temp\surefire14228402959523714938 2026-10-14T19-28-13_212-jvmRun1 surefire-20261014192813360_1tmp surefire_0-20261014192813360_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\juanr\IdeaProjects\Demo\target\test-classes;C:\Users\juanr\IdeaProjects\Demo\target\classes;C:\Users\juanr\.m2\repository\com\microsoft\playwright\playwright\1.63.0\playwright-1.63.0.jar;C:\Users\juanr\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\juanr\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\juanr\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\juanr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver\1.63.0\driver-1.63.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver-bundle\1.63.0\driver-bundle-1.63.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\juanr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-picocontainer\7.20.1\cucumber-picocontainer-7.20.1.jar;C:\Users\juanr\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\juanr\AppData\Local\Temp\surefire9729817524279115574\surefirebooter-20261013220207389_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\juanr\AppData\Local\Temp\surefire14228402959523714938\surefirebooter-20261014192813360_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Registrar un empleado nuevo" classname="Módulo PIM" time="44.19">
+  <testcase name="Registrar un empleado nuevo" classname="Módulo PIM" time="49.11">
     <system-out><![CDATA[
 Scenario: Registrar un empleado nuevo                            &amp#27;[90m# features/ModuloPim.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mel administrador ha ingresado al sistema&amp#27;[0m                 &amp#27;[90m# steps.LoginSteps.elAdministradorHaIngresadoAlSistema()&amp#27;[0m
@@ -65,11 +65,11 @@ Scenario: Registrar un empleado nuevo                            &amp#27;[90m# f
 
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mel administrador realiza el registro de un empleado nuevo&amp#27;[0m &amp#27;[90m# steps.EmpleadoSteps.registraEmpleadoNuevo()&amp#27;[0m
 
-    Embedding Paso 2 [image/png 98003 bytes]
+    Embedding Paso 2 [image/png 98586 bytes]
 
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mel empleado es registrado en el sistema&amp#27;[0m                   &amp#27;[90m# steps.EmpleadoSteps.empleadoRegistrado()&amp#27;[0m
 
-    Embedding Paso 3 [image/png 101713 bytes]
+    Embedding Paso 3 [image/png 98048 bytes]
 
 ]]></system-out>
   </testcase>
