@@ -1,6 +1,6 @@
 # language: es
 @PIM @Busqueda
-Característica: Búsqueda de empleados en el módulo PIM
+Característica: Búsqueda de empleados en el modulo PIM
 
   Escenario: El usuario busca un empleado por su nombre en el sistema
     Dado que el usuario inicia sesión en OrangeHRM
@@ -9,11 +9,11 @@ Característica: Búsqueda de empleados en el módulo PIM
     Y hace clic en el botón "Search"
     Entonces el sistema debe mostrar los registros que coincidan con el nombre "John" en la tabla de resultados
 
-  Escenario: El usuario busca un empleado utilizando su ID único
+  Escenario: El usuario busca un empleado utilizando su ID unico
     Dado que el usuario se encuentra en la lista de empleados de OrangeHRM
     Cuando ingresa el ID "0123" en el campo "Employee ID"
     Y hace clic en el botón "Search"
-    Entonces el sistema debe mostrar únicamente el registro correspondiente al ID "0123"
+    Entonces el sistema debe mostrar unicamente el registro correspondiente al ID "0123"
 
   Escenario: El sistema informa cuando no se encuentran registros de un empleado
     Dado que el usuario está en la pantalla "Employee List" de OrangeHRM

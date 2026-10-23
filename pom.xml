@@ -16,6 +16,7 @@
         <playwright.version>1.63.0</playwright.version>
         <cucumber.version>7.20.1</cucumber.version>
         <junit.version>5.10.2</junit.version>
+        <percy.version>1.2.1</percy.version>
     </properties>
 
     <dependencyManagement>
@@ -42,6 +43,14 @@
             <groupId>com.microsoft.playwright</groupId>
             <artifactId>playwright</artifactId>
             <version>${playwright.version}</version>
+        </dependency>
+
+        <!-- Regresión visual (Visual AI Testing) -->
+        <dependency>
+            <groupId>io.percy</groupId>
+            <artifactId>percy-playwright-java</artifactId>
+            <version>${percy.version}</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>

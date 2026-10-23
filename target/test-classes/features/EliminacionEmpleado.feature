@@ -1,6 +1,6 @@
 # language: es
 @PIM @Eliminacion
-Característica: Eliminación de empleados en el módulo PIM
+Característica: Eliminacion de empleados en el modulo PIM
 
   Escenario: El usuario elimina un empleado seleccionandolo desde el grid de resultados
     Dado que el usuario busca un empleado en la lista de OrangeHRM

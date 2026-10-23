@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunCucumberTest" time="82.44" tests="13" errors="0" skipped="10" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunCucumberTest" time="140.139" tests="19" errors="0" skipped="13" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\juanr\IdeaProjects\Demo\target\test-classes;C:\Users\juanr\IdeaProjects\Demo\target\classes;C:\Users\juanr\.m2\repository\com\microsoft\playwright\playwright\1.63.0\playwright-1.63.0.jar;C:\Users\juanr\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\juanr\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\juanr\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\juanr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver\1.63.0\driver-1.63.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver-bundle\1.63.0\driver-bundle-1.63.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\juanr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-picocontainer\7.20.1\cucumber-picocontainer-7.20.1.jar;C:\Users\juanr\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\juanr\IdeaProjects\Demo\target\test-classes;C:\Users\juanr\IdeaProjects\Demo\target\classes;C:\Users\juanr\.m2\repository\com\microsoft\playwright\playwright\1.63.0\playwright-1.63.0.jar;C:\Users\juanr\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\juanr\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\juanr\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\juanr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver\1.63.0\driver-1.63.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver-bundle\1.63.0\driver-bundle-1.63.0.jar;C:\Users\juanr\.m2\repository\io\percy\percy-playwright-java\1.2.1\percy-playwright-java-1.2.1.jar;C:\Users\juanr\.m2\repository\org\json\json\20220924\json-20220924.jar;C:\Users\juanr\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\juanr\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\juanr\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\juanr\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\juanr\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\juanr\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\juanr\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\juanr\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\juanr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-picocontainer\7.20.1\cucumber-picocontainer-7.20.1.jar;C:\Users\juanr\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\juanr\AppData\Local\Temp\surefire17620392130448148053\surefirebooter-20261023125519650_3.jar C:\Users\juanr\AppData\Local\Temp\surefire17620392130448148053 2026-10-23T12-55-19_487-jvmRun1 surefire-20261023125519650_1tmp surefire_0-20261023125519650_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\juanr\AppData\Local\Temp\surefire1061276243573873266\surefirebooter-20261023143701322_3.jar C:\Users\juanr\AppData\Local\Temp\surefire1061276243573873266 2026-10-23T14-37-00_411-jvmRun1 surefire-20261023143701322_1tmp surefire_0-20261023143701322_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\juanr\IdeaProjects\Demo\target\test-classes;C:\Users\juanr\IdeaProjects\Demo\target\classes;C:\Users\juanr\.m2\repository\com\microsoft\playwright\playwright\1.63.0\playwright-1.63.0.jar;C:\Users\juanr\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\juanr\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\juanr\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\juanr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver\1.63.0\driver-1.63.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver-bundle\1.63.0\driver-bundle-1.63.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\juanr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-picocontainer\7.20.1\cucumber-picocontainer-7.20.1.jar;C:\Users\juanr\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\juanr\IdeaProjects\Demo\target\test-classes;C:\Users\juanr\IdeaProjects\Demo\target\classes;C:\Users\juanr\.m2\repository\com\microsoft\playwright\playwright\1.63.0\playwright-1.63.0.jar;C:\Users\juanr\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\juanr\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\juanr\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\juanr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver\1.63.0\driver-1.63.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver-bundle\1.63.0\driver-bundle-1.63.0.jar;C:\Users\juanr\.m2\repository\io\percy\percy-playwright-java\1.2.1\percy-playwright-java-1.2.1.jar;C:\Users\juanr\.m2\repository\org\json\json\20220924\json-20220924.jar;C:\Users\juanr\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\juanr\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\juanr\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\juanr\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\juanr\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\juanr\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\juanr\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\juanr\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\juanr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-picocontainer\7.20.1\cucumber-picocontainer-7.20.1.jar;C:\Users\juanr\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\juanr"/>
     <property name="user.language" value="es"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\juanr\AppData\Local\Temp\surefire17620392130448148053\surefirebooter-20261023125519650_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\juanr\AppData\Local\Temp\surefire1061276243573873266\surefirebooter-20261023143701322_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -44,13 +44,13 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\juanr\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.9"/>
-    <property name="cucumber.filter.tags" value="@Edicion"/>
+    <property name="cucumber.filter.tags" value="@Visual"/>
     <property name="user.dir" value="C:\Users\juanr\IdeaProjects\Demo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\gradle-9.2.1\bin;C:\Program Files\nodejs\;C:\apache-maven-3.9.16\bin;C:\Users\juanr\AppData\Local\Microsoft\WindowsApps;C:\Gradle\gradle-9.2.1\bin;C:\Users\juanr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\juanr\AppData\Local\Kingsoft\WPS Office\12.1.0.27458\clitool;C:\Users\juanr\AppData\Roaming\npm;C:\apache-maven-3.9.16\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\juanr\IdeaProjects\Demo\node_modules\.bin;C:\Users\juanr\IdeaProjects\Demo\node_modules\.bin;C:\Users\juanr\IdeaProjects\node_modules\.bin;C:\Users\juanr\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\gradle-9.2.1\bin;C:\Program Files\nodejs\;C:\apache-maven-3.9.16\bin;C:\Users\juanr\AppData\Local\Microsoft\WindowsApps;C:\Gradle\gradle-9.2.1\bin;C:\Users\juanr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\juanr\AppData\Local\Kingsoft\WPS Office\12.1.0.27458\clitool;C:\Users\juanr\AppData\Roaming\npm;C:\apache-maven-3.9.16\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
@@ -58,99 +58,146 @@
     <property name="java.class.version" value="61.0"/>
   </properties>
   <testcase name="Autenticacion en el sistema Orange" classname="HU-01 Autenticación en el sistema Orange" time="0.0">
-    <skipped message="&apos;cucumber.filter.tags=@Edicion&apos; did not match this scenario"/>
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
   <testcase name="Autenticacion en el sistema Orange" classname="HU-01 Autenticación en el sistema Orange" time="0.0">
-    <skipped message="&apos;cucumber.filter.tags=@Edicion&apos; did not match this scenario"/>
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
-  <testcase name="El usuario busca un empleado por su nombre en el sistema" classname="Búsqueda de empleados en el módulo PIM" time="0.0">
-    <skipped message="&apos;cucumber.filter.tags=@Edicion&apos; did not match this scenario"/>
+  <testcase name="El usuario busca un empleado por su nombre en el sistema" classname="Búsqueda de empleados en el modulo PIM" time="0.0">
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
-  <testcase name="El usuario busca un empleado utilizando su ID único" classname="Búsqueda de empleados en el módulo PIM" time="0.0">
-    <skipped message="&apos;cucumber.filter.tags=@Edicion&apos; did not match this scenario"/>
+  <testcase name="El usuario busca un empleado utilizando su ID unico" classname="Búsqueda de empleados en el modulo PIM" time="0.0">
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
-  <testcase name="El sistema informa cuando no se encuentran registros de un empleado" classname="Búsqueda de empleados en el módulo PIM" time="0.0">
-    <skipped message="&apos;cucumber.filter.tags=@Edicion&apos; did not match this scenario"/>
+  <testcase name="El sistema informa cuando no se encuentran registros de un empleado" classname="Búsqueda de empleados en el modulo PIM" time="0.0">
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
-  <testcase name="El usuario modifica con éxito el apellido de un empleado existente" classname="Edición de empleados en el módulo PIM" time="31.922">
-    <system-out><![CDATA[
-@PIM @Edicion
-Escenario: El usuario modifica con Ã©xito el apellido de un empleado existente                      &amp#27;[90m# features/EdicionEmpleado.feature:5&amp#27;[0m
-  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario busca y selecciona un empleado en la lista de OrangeHRM&amp#27;[0m                      &amp#27;[90m# steps.GestionEmpleadoSteps.buscaYSeleccionaEmpleado()&amp#27;[0m
-
-    Embedding Paso 1 [image/png 101516 bytes]
-
-  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32medita el campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"Last Name"&amp#27;[0m&amp#27;[32m con el nuevo valor &amp#27;[0m&amp#27;[32m&amp#27;[1m"Smith-Johnson"&amp#27;[0m                             &amp#27;[90m# steps.GestionEmpleadoSteps.editaCampo(java.lang.String,java.lang.String)&amp#27;[0m
-
-    Embedding Paso 2 [image/png 122295 bytes]
-
-  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhace clic en el botÃ³n &amp#27;[0m&amp#27;[32m&amp#27;[1m"Save"&amp#27;[0m&amp#27;[32m de la secciÃ³n personal details&amp#27;[0m                                    &amp#27;[90m# steps.GestionEmpleadoSteps.guardaDetallesPersonales(java.lang.String)&amp#27;[0m
-
-    Embedding Paso 3 [image/png 108746 bytes]
-
-  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel sistema debe mostrar un mensaje de Ã©xito indicando que los datos fueron actualizados&amp#27;[0m &amp#27;[90m# steps.GestionEmpleadoSteps.muestraMensajeDeActualizacion()&amp#27;[0m
-
-    Embedding Paso 4 [image/png 108732 bytes]
-
-]]></system-out>
+  <testcase name="El usuario modifica con exito el apellido de un empleado existente" classname="Edición de empleados en el modulo PIM" time="0.0">
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
-  <testcase name="El sistema valida que no se guarden cambios con campos obligatorios vacíos" classname="Edición de empleados en el módulo PIM" time="23.475">
-    <system-out><![CDATA[
-@PIM @Edicion
-Escenario: El sistema valida que no se guarden cambios con campos obligatorios vacÃ­os      &amp#27;[90m# features/EdicionEmpleado.feature:11&amp#27;[0m
-  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario estÃ¡ editando los datos personales de un empleado&amp#27;[0m                    &amp#27;[90m# steps.GestionEmpleadoSteps.editandoDatosPersonales()&amp#27;[0m
-
-    Embedding Paso 1 [image/png 102476 bytes]
-
-  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mborra el contenido del campo obligatorio &amp#27;[0m&amp#27;[32m&amp#27;[1m"First Name"&amp#27;[0m                             &amp#27;[90m# steps.GestionEmpleadoSteps.borraCampoObligatorio(java.lang.String)&amp#27;[0m
-
-    Embedding Paso 2 [image/png 123548 bytes]
-
-  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhace clic en el botÃ³n &amp#27;[0m&amp#27;[32m&amp#27;[1m"Save"&amp#27;[0m                                                           &amp#27;[90m# steps.GestionEmpleadoSteps.haceClicEnElBoton(java.lang.String)&amp#27;[0m
-
-    Embedding Paso 3 [image/png 124533 bytes]
-
-  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel sistema debe mostrar un mensaje de error indicando que el campo es requerido&amp#27;[0m &amp#27;[90m# steps.GestionEmpleadoSteps.muestraErrorDeCampoRequerido()&amp#27;[0m
-
-    Embedding Paso 4 [image/png 124568 bytes]
-
-]]></system-out>
+  <testcase name="El sistema valida que no se guarden cambios con campos obligatorios vacios" classname="Edición de empleados en el modulo PIM" time="0.0">
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
-  <testcase name="El usuario actualiza la información de contacto del empleado" classname="Edición de empleados en el módulo PIM" time="26.674">
-    <system-out><![CDATA[
-@PIM @Edicion
-Escenario: El usuario actualiza la informaciÃ³n de contacto del empleado                       &amp#27;[90m# features/EdicionEmpleado.feature:17&amp#27;[0m
-  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario accede al perfil del empleado y selecciona la pestaÃ±a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Contact Details"&amp#27;[0m &amp#27;[90m# steps.GestionEmpleadoSteps.accedeAlPerfilYSeleccionaPestana(java.lang.String)&amp#27;[0m
-
-    Embedding Paso 1 [image/png 117126 bytes]
-
-  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingresa el nuevo correo &amp#27;[0m&amp#27;[32m&amp#27;[1m"nuevo.correo@example.com"&amp#27;[0m&amp#27;[32m en el campo correspondiente&amp#27;[0m       &amp#27;[90m# steps.GestionEmpleadoSteps.ingresaNuevoCorreo(java.lang.String)&amp#27;[0m
-
-    Embedding Paso 2 [image/png 119546 bytes]
-
-  &amp#27;[32mY &amp#27;[0m&amp#27;[32mhace clic en el botÃ³n &amp#27;[0m&amp#27;[32m&amp#27;[1m"Save"&amp#27;[0m                                                              &amp#27;[90m# steps.GestionEmpleadoSteps.haceClicEnElBoton(java.lang.String)&amp#27;[0m
-
-    Embedding Paso 3 [image/png 109856 bytes]
-
-  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mlos datos de contacto deben actualizarse correctamente en el sistema&amp#27;[0m               &amp#27;[90m# steps.GestionEmpleadoSteps.contactoActualizado()&amp#27;[0m
-
-    Embedding Paso 4 [image/png 110043 bytes]
-
-]]></system-out>
+  <testcase name="El usuario actualiza la informacion de contacto del empleado" classname="Edición de empleados en el modulo PIM" time="0.0">
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
-  <testcase name="El usuario elimina un empleado seleccionandolo desde el grid de resultados" classname="Eliminación de empleados en el módulo PIM" time="0.0">
-    <skipped message="&apos;cucumber.filter.tags=@Edicion&apos; did not match this scenario"/>
+  <testcase name="El usuario elimina un empleado seleccionandolo desde el grid de resultados" classname="Eliminacion de empleados en el modulo PIM" time="0.0">
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
-  <testcase name="El usuario cancela el proceso de eliminacion de un empleado" classname="Eliminación de empleados en el módulo PIM" time="0.0">
-    <skipped message="&apos;cucumber.filter.tags=@Edicion&apos; did not match this scenario"/>
+  <testcase name="El usuario cancela el proceso de eliminacion de un empleado" classname="Eliminacion de empleados en el modulo PIM" time="0.0">
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
-  <testcase name="El usuario elimina varios empleados de forma simultanea" classname="Eliminación de empleados en el módulo PIM" time="0.0">
-    <skipped message="&apos;cucumber.filter.tags=@Edicion&apos; did not match this scenario"/>
+  <testcase name="El usuario elimina varios empleados de forma simultanea" classname="Eliminacion de empleados en el modulo PIM" time="0.0">
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
   <testcase name="Registrar un empleado nuevo" classname="Módulo PIM" time="0.0">
-    <skipped message="&apos;cucumber.filter.tags=@Edicion&apos; did not match this scenario"/>
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
   </testcase>
   <testcase name="Registrar un empleado nuevo" classname="Módulo PIM" time="0.0">
-    <skipped message="&apos;cucumber.filter.tags=@Edicion&apos; did not match this scenario"/>
+    <skipped message="&apos;cucumber.filter.tags=@Visual&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Regresión visual - Employee List" classname="Regresión visual del módulo PIM" time="27.595">
+    <system-out><![CDATA[
+@PIM @Visual
+Escenario: RegresiÃ³n visual - Employee List                                    &amp#27;[90m# features/RegresionVisual.feature:5&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario estÃ¡ en la pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"Employee List"&amp#27;[0m&amp#27;[32m de OrangeHRM&amp#27;[0m         &amp#27;[90m# steps.GestionEmpleadoSteps.enLaPantalla(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 1 [image/png 90286 bytes]
+
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mla pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"PIM - Employee List"&amp#27;[0m&amp#27;[32m coincide con la lÃ­nea base visual&amp#27;[0m &amp#27;[90m# steps.VisualSteps.coincideConLaLineaBase(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 2 [image/png 101494 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="Regresión visual - Employee List sin resultados" classname="Regresión visual del módulo PIM" time="22.625">
+    <system-out><![CDATA[
+@PIM @Visual
+Escenario: RegresiÃ³n visual - Employee List sin resultados                                    &amp#27;[90m# features/RegresionVisual.feature:9&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario estÃ¡ en la pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"Employee List"&amp#27;[0m&amp#27;[32m de OrangeHRM&amp#27;[0m                        &amp#27;[90m# steps.GestionEmpleadoSteps.enLaPantalla(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 1 [image/png 90292 bytes]
+
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingresa el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"UsuarioInexistenteXYZ"&amp#27;[0m&amp#27;[32m y hace clic en &amp#27;[0m&amp#27;[32m&amp#27;[1m"Search"&amp#27;[0m                    &amp#27;[90m# steps.GestionEmpleadoSteps.ingresaNombreYHaceClic(java.lang.String,java.lang.String)&amp#27;[0m
+
+    Embedding Paso 2 [image/png 107148 bytes]
+
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mla pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"PIM - Employee List sin resultados"&amp#27;[0m&amp#27;[32m coincide con la lÃ­nea base visual&amp#27;[0m &amp#27;[90m# steps.VisualSteps.coincideConLaLineaBase(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 3 [image/png 99459 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="Regresión visual - Add Employee" classname="Regresión visual del módulo PIM" time="17.919">
+    <system-out><![CDATA[
+@PIM @Visual
+Escenario: RegresiÃ³n visual - Add Employee                                    &amp#27;[90m# features/RegresionVisual.feature:14&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario inicia sesiÃ³n en OrangeHRM&amp#27;[0m                              &amp#27;[90m# steps.GestionEmpleadoSteps.inicioSesion()&amp#27;[0m
+
+    Embedding Paso 1 [image/png 4257 bytes]
+
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mnavega a la pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"Add Employee"&amp#27;[0m&amp#27;[32m del mÃ³dulo PIM&amp#27;[0m                   &amp#27;[90m# steps.VisualSteps.navegaALaPantalla(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 2 [image/png 4257 bytes]
+
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mla pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"PIM - Add Employee"&amp#27;[0m&amp#27;[32m coincide con la lÃ­nea base visual&amp#27;[0m &amp#27;[90m# steps.VisualSteps.coincideConLaLineaBase(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 3 [image/png 97669 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="Regresión visual - Reports" classname="Regresión visual del módulo PIM" time="17.131">
+    <system-out><![CDATA[
+@PIM @Visual
+Escenario: RegresiÃ³n visual - Reports                                    &amp#27;[90m# features/RegresionVisual.feature:19&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario inicia sesiÃ³n en OrangeHRM&amp#27;[0m                         &amp#27;[90m# steps.GestionEmpleadoSteps.inicioSesion()&amp#27;[0m
+
+    Embedding Paso 1 [image/png 4257 bytes]
+
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mnavega a la pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"Reports"&amp#27;[0m&amp#27;[32m del mÃ³dulo PIM&amp#27;[0m                   &amp#27;[90m# steps.VisualSteps.navegaALaPantalla(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 2 [image/png 4257 bytes]
+
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mla pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"PIM - Reports"&amp#27;[0m&amp#27;[32m coincide con la lÃ­nea base visual&amp#27;[0m &amp#27;[90m# steps.VisualSteps.coincideConLaLineaBase(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 3 [image/png 97692 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="Regresión visual - Configuration Optional Fields" classname="Regresión visual del módulo PIM" time="25.289">
+    <system-out><![CDATA[
+@PIM @Visual
+Escenario: RegresiÃ³n visual - Configuration Optional Fields                      &amp#27;[90m# features/RegresionVisual.feature:24&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario inicia sesiÃ³n en OrangeHRM&amp#27;[0m                                 &amp#27;[90m# steps.GestionEmpleadoSteps.inicioSesion()&amp#27;[0m
+
+    Embedding Paso 1 [image/png 4257 bytes]
+
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mnavega a la opciÃ³n &amp#27;[0m&amp#27;[32m&amp#27;[1m"Optional Fields"&amp#27;[0m&amp#27;[32m del menÃº Configuration&amp#27;[0m             &amp#27;[90m# steps.VisualSteps.navegaALaOpcionDeConfiguration(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 2 [image/png 4257 bytes]
+
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mla pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"PIM - Optional Fields"&amp#27;[0m&amp#27;[32m coincide con la lÃ­nea base visual&amp#27;[0m &amp#27;[90m# steps.VisualSteps.coincideConLaLineaBase(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 3 [image/png 93954 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="Regresión visual - Configuration Data Import" classname="Regresión visual del módulo PIM" time="29.116">
+    <system-out><![CDATA[
+@PIM @Visual
+Escenario: RegresiÃ³n visual - Configuration Data Import                      &amp#27;[90m# features/RegresionVisual.feature:29&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario inicia sesiÃ³n en OrangeHRM&amp#27;[0m                             &amp#27;[90m# steps.GestionEmpleadoSteps.inicioSesion()&amp#27;[0m
+
+    Embedding Paso 1 [image/png 4257 bytes]
+
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mnavega a la opciÃ³n &amp#27;[0m&amp#27;[32m&amp#27;[1m"Data Import"&amp#27;[0m&amp#27;[32m del menÃº Configuration&amp#27;[0m             &amp#27;[90m# steps.VisualSteps.navegaALaOpcionDeConfiguration(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 2 [image/png 4257 bytes]
+
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mla pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"PIM - Data Import"&amp#27;[0m&amp#27;[32m coincide con la lÃ­nea base visual&amp#27;[0m &amp#27;[90m# steps.VisualSteps.coincideConLaLineaBase(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 3 [image/png 99895 bytes]
+
+]]></system-out>
   </testcase>
 </testsuite>

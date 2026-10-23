@@ -2,12 +2,16 @@ C:\Users\juanr\IdeaProjects\Demo\src\test\java\context\TestContext.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\hooks\Hooks.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\AddEmployeePage.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\BasePage.java
+C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\ConfigurationPage.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\ContactDetailsPage.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\DashboardPage.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\EmployeeListPage.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\LoginPage.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\PersonalDetailsPage.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\PimPage.java
+C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\ReportsPage.java
+C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\VisualCheck.java
+C:\Users\juanr\IdeaProjects\Demo\src\test\java\pages\VisualSteps.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\runners\RunCucumberTest.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\steps\EmpleadoSteps.java
 C:\Users\juanr\IdeaProjects\Demo\src\test\java\steps\GestionEmpleadoSteps.java
