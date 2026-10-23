@@ -1,4 +1,4 @@
-# Demo — Automatización de pruebas del módulo PIM (OrangeHRM)
+# Grupo1_Módulo PIM — Automatización de pruebas del módulo PIM (OrangeHRM)
 
 Framework de pruebas end-to-end con **Playwright (Java)**, **Cucumber (BDD)** y **JUnit 5**, bajo el patrón **Page Object Model (POM)**. Prueba el demo público de OrangeHRM: autenticación y gestión de empleados (búsqueda, registro, edición y eliminación).
 
