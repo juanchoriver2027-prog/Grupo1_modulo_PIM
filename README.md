@@ -133,6 +133,7 @@ Demo/
 | `@PIM` `@Busqueda` | Búsqueda por nombre, por ID y sin resultados | 3 |
 | `@PIM` `@Edicion` | Edición de apellido, validación de obligatorios y datos de contacto | 3 |
 | `@PIM` `@Eliminacion` | Eliminación individual, cancelación y eliminación múltiple | 3 |
+| `@PIM` `@Visual` | Regresión visual de 6 pantallas del módulo (Percy) | 6 |
 
 **Datos de prueba:** los escenarios de edición y eliminación crean su propio empleado con apellido único para no alterar datos compartidos del demo. Los de búsqueda necesitan un empleado "John" y otro con ID `0123`; si no existen, el escenario los crea.
 
@@ -150,6 +151,7 @@ Definidas en `pom.xml` (Java 17):
 | `io.cucumber:cucumber-picocontainer` | 7.20.1 (BOM) | Inyección de `TestContext` en steps y hooks |
 | `org.junit.platform:junit-platform-suite` | 5.10.2 (BOM) | Runner `@Suite` |
 | `org.junit.jupiter:junit-jupiter` | 5.10.2 (BOM) | Motor de pruebas JUnit 5 |
+| `io.percy:percy-playwright-java` | 1.2.1 | Regresión visual (snapshots en Percy) |
 | `maven-surefire-plugin` | 3.2.5 | Ejecución de las pruebas con `mvn test` |
 
 ---
@@ -183,3 +185,24 @@ En Gherkin en español, la palabra clave (`Dado`, `Cuando`, `Entonces`, `Y`) **n
 - Credenciales y URL están en el código; conviene externalizarlas a propiedades o variables de entorno.
 - Los escenarios de edición y contacto dejan empleados creados en el demo.
 - Dependencia de un sitio público externo: la disponibilidad y los datos pueden cambiar.
+
+---
+
+## 10. Regresión visual con Percy
+
+Las pruebas `@Visual` toman un *snapshot* de 6 pantallas del módulo PIM y Percy lo compara contra una línea base: Employee List, Employee List sin resultados, Add Employee, Reports, Configuration → Optional Fields y Configuration → Data Import.
+
+**Requisitos:** una cuenta en [Percy](https://percy.io) con un proyecto de tipo *Web* (de ahí sale el `PERCY_TOKEN`) y Node.js. El CLI `@percy/cli` ya figura en `package.json`; instálalo con `npm install`.
+
+```powershell
+$Env:PERCY_TOKEN="<tu token>"
+npx percy exec -- mvn test "-Dcucumber.filter.tags=@Visual"
+```
+
+- **Primera ejecución:** crea la línea base.
+- **Siguientes:** Percy compara y marca las diferencias para aprobarlas o rechazarlas en su panel.
+- **Demostrar la detección:** `npx percy exec -- mvn test "-Dcucumber.filter.tags=@Visual" "-DsimularCambioVisual=true"` introduce un cambio de color que Percy debe señalar.
+- **Ejecución normal:** sin `percy exec` los snapshots se omiten. Para no gastar tiempo, excluye estas pruebas: `mvn test "-Dcucumber.filter.tags=not @Visual"`.
+- **No subas el token al repositorio.** Usa variable de entorno (o secreto en CI).
+
+Los datos que cambian en cada ejecución (usuario del encabezado, tabla de empleados, ID autogenerado, mensajes emergentes) se ocultan con `percyCSS` para evitar falsos positivos; ver `VisualCheck` y `VisualSteps`.
