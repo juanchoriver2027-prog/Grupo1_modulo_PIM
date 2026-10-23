@@ -1,11 +1,14 @@
 pages\BasePage.class
 steps\LoginSteps.class
+steps\GestionEmpleadoSteps.class
 pages\AddEmployeePage.class
 pages\LoginPage.class
 runners\RunCucumberTest.class
 pages\DashboardPage.class
 pages\PimPage.class
 context\TestContext.class
+pages\ContactDetailsPage.class
+pages\EmployeeListPage.class
 hooks\Hooks.class
 steps\EmpleadoSteps.class
 pages\PersonalDetailsPage.class
