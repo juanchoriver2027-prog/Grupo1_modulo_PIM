@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.cucumber.junit.platform.engine.CucumberTestEngine" time="135.618" tests="3" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="cucumber.features" value="src/test/resources/features/BusquedaEmpleado.feature"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\juanr\IdeaProjects\Demo\target\test-classes;C:\Users\juanr\IdeaProjects\Demo\target\classes;C:\Users\juanr\.m2\repository\com\microsoft\playwright\playwright\1.63.0\playwright-1.63.0.jar;C:\Users\juanr\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\juanr\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\juanr\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\juanr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver\1.63.0\driver-1.63.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver-bundle\1.63.0\driver-bundle-1.63.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\juanr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-picocontainer\7.20.1\cucumber-picocontainer-7.20.1.jar;C:\Users\juanr\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\juanr\AppData\Local\Temp\surefire1031379298393443655\surefirebooter-20261023123731513_3.jar C:\Users\juanr\AppData\Local\Temp\surefire1031379298393443655 2026-10-23T12-37-31_348-jvmRun1 surefire-20261023123731513_1tmp surefire_0-20261023123731513_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\juanr\IdeaProjects\Demo\target\test-classes;C:\Users\juanr\IdeaProjects\Demo\target\classes;C:\Users\juanr\.m2\repository\com\microsoft\playwright\playwright\1.63.0\playwright-1.63.0.jar;C:\Users\juanr\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\juanr\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\juanr\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\juanr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver\1.63.0\driver-1.63.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver-bundle\1.63.0\driver-bundle-1.63.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\juanr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-picocontainer\7.20.1\cucumber-picocontainer-7.20.1.jar;C:\Users\juanr\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\juanr"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\juanr\IdeaProjects\Demo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\juanr\AppData\Local\Temp\surefire1031379298393443655\surefirebooter-20261023123731513_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="juanr"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\juanr\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\juanr\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\juanr\IdeaProjects\Demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\gradle-9.2.1\bin;C:\Program Files\nodejs\;C:\apache-maven-3.9.16\bin;C:\Users\juanr\AppData\Local\Microsoft\WindowsApps;C:\Gradle\gradle-9.2.1\bin;C:\Users\juanr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\juanr\AppData\Local\Kingsoft\WPS Office\12.1.0.27458\clitool;C:\Users\juanr\AppData\Roaming\npm;C:\apache-maven-3.9.16\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="El usuario busca un empleado por su nombre en el sistema" classname="Búsqueda de empleados en el módulo PIM" time="63.055">
+    <error message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)&#10;    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)&#10;}&#10;Call log:&#10;-   - waiting for locator(&quot;.oxd-table-body .oxd-table-card&quot;).filter(new Locator.FilterOptions().setHas(locator(&quot;.oxd-table-cell:nth-child(3), .oxd-table-cell:nth-child(4)&quot;).filter(new Locator.FilterOptions().setHasText(Pattern.compile(&quot;\\QJohn\\E&quot;, Pattern.CASE_INSENSITIVE))))).first().or(getByText(&quot;No Records Found&quot;).first()).first() to be visible&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(3), .oxd-table-cell:nth-child(4)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("\\QJohn\\E", Pattern.CASE_INSENSITIVE))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeNamed(EmployeeListPage.java:94)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConNombre(GestionEmpleadoSteps.java:307)
+	at steps.GestionEmpleadoSteps.navegaAEmployeeList(GestionEmpleadoSteps.java:62)
+	at ✽.navega a la sección "PIM" y luego a "Employee List"(file:///C:/Users/juanr/IdeaProjects/Demo/src/test/resources/features/BusquedaEmpleado.feature:7)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(3), .oxd-table-cell:nth-child(4)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("\\QJohn\\E", Pattern.CASE_INSENSITIVE))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:274)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:230)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeNamed(EmployeeListPage.java:94)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConNombre(GestionEmpleadoSteps.java:307)
+	at steps.GestionEmpleadoSteps.navegaAEmployeeList(GestionEmpleadoSteps.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+    <system-err><![CDATA[oct. 23, 2026 12:37:31 P. M. io.cucumber.junit.platform.engine.DiscoverySelectorResolver warnWhenCucumberFeaturesPropertyIsUsed
+WARNING: Discovering tests using the cucumber.features property. Other discovery selectors are ignored!
+
+This is a work around for the limited JUnit 5 support in Maven and Gradle. Please request/upvote/sponsor/ect better support for JUnit 5 discovery selectors. For details see: https://github.com/cucumber/cucumber-jvm/pull/2498
+
+If you are using the JUnit 5 Suite Engine, Platform Launcher API or Console Launcher you should not use this property. Please consult the JUnit 5 documentation on test selection.
+]]></system-err>
+  </testcase>
+  <testcase name="El usuario busca un empleado por su nombre en el sistema" classname="Búsqueda de empleados en el módulo PIM" time="59.108">
+    <error message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)&#10;    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)&#10;}&#10;Call log:&#10;-   - waiting for locator(&quot;.oxd-table-body .oxd-table-card&quot;).filter(new Locator.FilterOptions().setHas(locator(&quot;.oxd-table-cell:nth-child(3), .oxd-table-cell:nth-child(4)&quot;).filter(new Locator.FilterOptions().setHasText(Pattern.compile(&quot;\\QJohn\\E&quot;, Pattern.CASE_INSENSITIVE))))).first().or(getByText(&quot;No Records Found&quot;).first()).first() to be visible&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(3), .oxd-table-cell:nth-child(4)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("\\QJohn\\E", Pattern.CASE_INSENSITIVE))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeNamed(EmployeeListPage.java:94)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConNombre(GestionEmpleadoSteps.java:307)
+	at steps.GestionEmpleadoSteps.navegaAEmployeeList(GestionEmpleadoSteps.java:62)
+	at ✽.navega a la sección "PIM" y luego a "Employee List"(file:///C:/Users/juanr/IdeaProjects/Demo/src/test/resources/features/BusquedaEmpleado.feature:7)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(3), .oxd-table-cell:nth-child(4)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("\\QJohn\\E", Pattern.CASE_INSENSITIVE))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:274)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:230)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeNamed(EmployeeListPage.java:94)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConNombre(GestionEmpleadoSteps.java:307)
+	at steps.GestionEmpleadoSteps.navegaAEmployeeList(GestionEmpleadoSteps.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+    <system-out><![CDATA[
+@PIM @Busqueda
+Escenario: El usuario busca un empleado por su nombre en el sistema                                           &amp#27;[90m# src/test/resources/features/BusquedaEmpleado.feature:5&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario inicia sesiÃ³n en OrangeHRM&amp#27;[0m                                                              &amp#27;[90m# steps.GestionEmpleadoSteps.inicioSesion()&amp#27;[0m
+
+    Embedding Paso 1 [image/png 4257 bytes]
+
+  &amp#27;[31mY &amp#27;[0m&amp#27;[31mnavega a la secciÃ³n &amp#27;[0m&amp#27;[31m&amp#27;[1m"PIM"&amp#27;[0m&amp#27;[31m y luego a &amp#27;[0m&amp#27;[31m&amp#27;[1m"Employee List"&amp#27;[0m                                                       &amp#27;[90m# steps.GestionEmpleadoSteps.navegaAEmployeeList(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31mcom.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(3), .oxd-table-cell:nth-child(4)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("\\QJohn\\E", Pattern.CASE_INSENSITIVE))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeNamed(EmployeeListPage.java:94)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConNombre(GestionEmpleadoSteps.java:307)
+	at steps.GestionEmpleadoSteps.navegaAEmployeeList(GestionEmpleadoSteps.java:62)
+	at âœ½.navega a la secciÃ³n "PIM" y luego a "Employee List"(file:///C:/Users/juanr/IdeaProjects/Demo/src/test/resources/features/BusquedaEmpleado.feature:7)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(3), .oxd-table-cell:nth-child(4)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("\\QJohn\\E", Pattern.CASE_INSENSITIVE))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:274)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:230)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeNamed(EmployeeListPage.java:94)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConNombre(GestionEmpleadoSteps.java:307)
+	at steps.GestionEmpleadoSteps.navegaAEmployeeList(GestionEmpleadoSteps.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:76)
+	at org.junit.platform.suite.engine.SuiteLauncher.execute(SuiteLauncher.java:63)
+	at org.junit.platform.suite.engine.SuiteTestDescriptor.execute(SuiteTestDescriptor.java:128)
+	at org.junit.platform.suite.engine.SuiteTestEngine.lambda$execute$0(SuiteTestEngine.java:73)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.platform.suite.engine.SuiteTestEngine.execute(SuiteTestEngine.java:73)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+&amp#27;[0m
+
+    Embedding Paso 2 [image/png 105416 bytes]
+
+  &amp#27;[36mCuando &amp#27;[0m&amp#27;[36mingresa el nombre &amp#27;[0m&amp#27;[36m&amp#27;[1m"John"&amp#27;[0m&amp#27;[36m en el campo de bÃºsqueda de empleado&amp#27;[0m                                         &amp#27;[90m# steps.GestionEmpleadoSteps.ingresaNombre(java.lang.String)&amp#27;[0m
+  &amp#27;[36mY &amp#27;[0m&amp#27;[36mhace clic en el botÃ³n &amp#27;[0m&amp#27;[36m&amp#27;[1m"Search"&amp#27;[0m                                                                            &amp#27;[90m# steps.GestionEmpleadoSteps.haceClicEnElBoton(java.lang.String)&amp#27;[0m
+  &amp#27;[36mEntonces &amp#27;[0m&amp#27;[36mel sistema debe mostrar los registros que coincidan con el nombre &amp#27;[0m&amp#27;[36m&amp#27;[1m"John"&amp#27;[0m&amp#27;[36m en la tabla de resultados&amp#27;[0m &amp#27;[90m# steps.GestionEmpleadoSteps.muestraRegistrosPorNombre(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="El usuario busca un empleado utilizando su ID único" classname="Búsqueda de empleados en el módulo PIM" time="68.528">
+    <error message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)&#10;    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)&#10;}&#10;Call log:&#10;-   - waiting for locator(&quot;.oxd-table-body .oxd-table-card&quot;).filter(new Locator.FilterOptions().setHas(locator(&quot;.oxd-table-cell:nth-child(2)&quot;).filter(new Locator.FilterOptions().setHasText(Pattern.compile(&quot;^\\s*\\Q0123\\E\\s*$&quot;))))).first().or(getByText(&quot;No Records Found&quot;).first()).first() to be visible&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(2)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("^\\s*\\Q0123\\E\\s*$"))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeWithId(EmployeeListPage.java:102)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConId(GestionEmpleadoSteps.java:313)
+	at steps.GestionEmpleadoSteps.enLaListaDeEmpleados(GestionEmpleadoSteps.java:68)
+	at ✽.que el usuario se encuentra en la lista de empleados de OrangeHRM(file:///C:/Users/juanr/IdeaProjects/Demo/src/test/resources/features/BusquedaEmpleado.feature:13)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(2)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("^\\s*\\Q0123\\E\\s*$"))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:274)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:230)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeWithId(EmployeeListPage.java:102)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConId(GestionEmpleadoSteps.java:313)
+	at steps.GestionEmpleadoSteps.enLaListaDeEmpleados(GestionEmpleadoSteps.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="El usuario busca un empleado utilizando su ID único" classname="Búsqueda de empleados en el módulo PIM" time="58.959">
+    <error message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)&#10;    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)&#10;}&#10;Call log:&#10;-   - waiting for locator(&quot;.oxd-table-body .oxd-table-card&quot;).filter(new Locator.FilterOptions().setHas(locator(&quot;.oxd-table-cell:nth-child(2)&quot;).filter(new Locator.FilterOptions().setHasText(Pattern.compile(&quot;^\\s*\\Q0123\\E\\s*$&quot;))))).first().or(getByText(&quot;No Records Found&quot;).first()).first() to be visible&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(2)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("^\\s*\\Q0123\\E\\s*$"))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeWithId(EmployeeListPage.java:102)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConId(GestionEmpleadoSteps.java:313)
+	at steps.GestionEmpleadoSteps.enLaListaDeEmpleados(GestionEmpleadoSteps.java:68)
+	at ✽.que el usuario se encuentra en la lista de empleados de OrangeHRM(file:///C:/Users/juanr/IdeaProjects/Demo/src/test/resources/features/BusquedaEmpleado.feature:13)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(2)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("^\\s*\\Q0123\\E\\s*$"))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:274)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:230)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeWithId(EmployeeListPage.java:102)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConId(GestionEmpleadoSteps.java:313)
+	at steps.GestionEmpleadoSteps.enLaListaDeEmpleados(GestionEmpleadoSteps.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+    <system-out><![CDATA[
+@PIM @Busqueda
+Escenario: El usuario busca un empleado utilizando su ID Ãºnico                         &amp#27;[90m# src/test/resources/features/BusquedaEmpleado.feature:12&amp#27;[0m
+  &amp#27;[31mDado &amp#27;[0m&amp#27;[31mque el usuario se encuentra en la lista de empleados de OrangeHRM&amp#27;[0m               &amp#27;[90m# steps.GestionEmpleadoSteps.enLaListaDeEmpleados()&amp#27;[0m
+      &amp#27;[31mcom.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(2)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("^\\s*\\Q0123\\E\\s*$"))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeWithId(EmployeeListPage.java:102)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConId(GestionEmpleadoSteps.java:313)
+	at steps.GestionEmpleadoSteps.enLaListaDeEmpleados(GestionEmpleadoSteps.java:68)
+	at âœ½.que el usuario se encuentra en la lista de empleados de OrangeHRM(file:///C:/Users/juanr/IdeaProjects/Demo/src/test/resources/features/BusquedaEmpleado.feature:13)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at _ProgressController.run (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:12360:32)
+    at DispatcherConnection.dispatch (C:\Users\juanr\AppData\Local\Temp\playwright-java-9664086102849711307\package\lib\coreBundle.js:19135:44)
+}
+Call log:
+-   - waiting for locator(".oxd-table-body .oxd-table-card").filter(new Locator.FilterOptions().setHas(locator(".oxd-table-cell:nth-child(2)").filter(new Locator.FilterOptions().setHasText(Pattern.compile("^\\s*\\Q0123\\E\\s*$"))))).first().or(getByText("No Records Found").first()).first() to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:274)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:230)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:998)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:672)
+	at com.microsoft.playwright.Locator.waitFor(Locator.java:5868)
+	at pages.EmployeeListPage.existsEmployeeWithId(EmployeeListPage.java:102)
+	at steps.GestionEmpleadoSteps.asegurarEmpleadoConId(GestionEmpleadoSteps.java:313)
+	at steps.GestionEmpleadoSteps.enLaListaDeEmpleados(GestionEmpleadoSteps.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:76)
+	at org.junit.platform.suite.engine.SuiteLauncher.execute(SuiteLauncher.java:63)
+	at org.junit.platform.suite.engine.SuiteTestDescriptor.execute(SuiteTestDescriptor.java:128)
+	at org.junit.platform.suite.engine.SuiteTestEngine.lambda$execute$0(SuiteTestEngine.java:73)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.platform.suite.engine.SuiteTestEngine.execute(SuiteTestEngine.java:73)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+&amp#27;[0m
+
+    Embedding Paso 1 [image/png 99483 bytes]
+
+  &amp#27;[36mCuando &amp#27;[0m&amp#27;[36mingresa el ID &amp#27;[0m&amp#27;[36m&amp#27;[1m"0123"&amp#27;[0m&amp#27;[36m en el campo &amp#27;[0m&amp#27;[36m&amp#27;[1m"Employee ID"&amp#27;[0m                                &amp#27;[90m# steps.GestionEmpleadoSteps.ingresaId(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mY &amp#27;[0m&amp#27;[36mhace clic en el botÃ³n &amp#27;[0m&amp#27;[36m&amp#27;[1m"Search"&amp#27;[0m                                                     &amp#27;[90m# steps.GestionEmpleadoSteps.haceClicEnElBoton(java.lang.String)&amp#27;[0m
+  &amp#27;[36mEntonces &amp#27;[0m&amp#27;[36mel sistema debe mostrar Ãºnicamente el registro correspondiente al ID &amp#27;[0m&amp#27;[36m&amp#27;[1m"0123"&amp#27;[0m &amp#27;[90m# steps.GestionEmpleadoSteps.muestraUnicamenteElRegistroDelId(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="El sistema informa cuando no se encuentran registros de un empleado" classname="Búsqueda de empleados en el módulo PIM" time="31.193"/>
+  <testcase name="El sistema informa cuando no se encuentran registros de un empleado" classname="Búsqueda de empleados en el módulo PIM" time="17.467">
+    <system-out><![CDATA[
+@PIM @Busqueda
+Escenario: El sistema informa cuando no se encuentran registros de un empleado             &amp#27;[90m# src/test/resources/features/BusquedaEmpleado.feature:18&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque el usuario estÃ¡ en la pantalla &amp#27;[0m&amp#27;[32m&amp#27;[1m"Employee List"&amp#27;[0m&amp#27;[32m de OrangeHRM&amp#27;[0m                     &amp#27;[90m# steps.GestionEmpleadoSteps.enLaPantalla(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 1 [image/png 90352 bytes]
+
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingresa el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"UsuarioInexistenteXYZ"&amp#27;[0m&amp#27;[32m y hace clic en &amp#27;[0m&amp#27;[32m&amp#27;[1m"Search"&amp#27;[0m                 &amp#27;[90m# steps.GestionEmpleadoSteps.ingresaNombreYHaceClic(java.lang.String,java.lang.String)&amp#27;[0m
+
+    Embedding Paso 2 [image/png 101763 bytes]
+
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mel sistema debe mostrar el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"No Records Found"&amp#27;[0m&amp#27;[32m en la tabla de resultados&amp#27;[0m &amp#27;[90m# steps.GestionEmpleadoSteps.muestraMensajeEnResultados(java.lang.String)&amp#27;[0m
+
+    Embedding Paso 3 [image/png 101118 bytes]
+
+]]></system-out>
+  </testcase>
+</testsuite>
