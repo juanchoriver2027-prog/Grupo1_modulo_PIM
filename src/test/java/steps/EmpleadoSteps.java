@@ -20,7 +20,7 @@ public class EmpleadoSteps {
 
     @When("el administrador realiza el registro de un empleado nuevo")
     public void registraEmpleadoNuevo() {
-        firstName = "Juan";
+        firstName = "Juan Carlos";
         lastName = "Prueba" + System.currentTimeMillis() % 100000;
 
         personalDetails = new DashboardPage(ctx.getPage())

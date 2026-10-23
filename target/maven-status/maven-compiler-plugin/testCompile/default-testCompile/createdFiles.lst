@@ -2,7 +2,6 @@ pages\BasePage.class
 steps\LoginSteps.class
 pages\AddEmployeePage.class
 pages\LoginPage.class
-Prueba2.class
 runners\RunCucumberTest.class
 pages\DashboardPage.class
 pages\PimPage.class

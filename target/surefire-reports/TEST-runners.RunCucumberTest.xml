@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunCucumberTest" time="49.414" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunCucumberTest" time="45.551" tests="2" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\juanr\AppData\Local\Temp\surefire14228402959523714938\surefirebooter-20261014192813360_3.jar C:\Users\juanr\AppData\Local\Temp\surefire14228402959523714938 2026-10-14T19-28-13_212-jvmRun1 surefire-20261014192813360_1tmp surefire_0-20261014192813360_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\juanr\AppData\Local\Temp\surefire3437891443176015499\surefirebooter-20261023103356042_3.jar C:\Users\juanr\AppData\Local\Temp\surefire3437891443176015499 2026-10-23T10-33-55_833-jvmRun1 surefire-20261023103356042_1tmp surefire_0-20261023103356042_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\juanr\IdeaProjects\Demo\target\test-classes;C:\Users\juanr\IdeaProjects\Demo\target\classes;C:\Users\juanr\.m2\repository\com\microsoft\playwright\playwright\1.63.0\playwright-1.63.0.jar;C:\Users\juanr\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\juanr\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\juanr\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\juanr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver\1.63.0\driver-1.63.0.jar;C:\Users\juanr\.m2\repository\com\microsoft\playwright\driver-bundle\1.63.0\driver-bundle-1.63.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\juanr\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\juanr\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\juanr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\io\cucumber\cucumber-picocontainer\7.20.1\cucumber-picocontainer-7.20.1.jar;C:\Users\juanr\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\juanr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\juanr\AppData\Local\Temp\surefire14228402959523714938\surefirebooter-20261014192813360_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\juanr\AppData\Local\Temp\surefire3437891443176015499\surefirebooter-20261023103356042_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -56,7 +56,231 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Registrar un empleado nuevo" classname="Módulo PIM" time="49.11">
+  <testcase name="HU-01 CA-02 — Autenticación en el sistema Orange" classname="HU-01 Autenticación en el sistema Orange" time="15.071">
+    <error message="Error {&#10;  message=&apos;Protocol error (Page.captureScreenshot): Unable to capture screenshot&#10;  name=&apos;Error&#10;  stack=&apos;Error: Protocol error (Page.captureScreenshot): Unable to capture screenshot&#10;    at C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:34996:61&#10;    at new Promise (&lt;anonymous&gt;)&#10;    at _CRSession.send (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:34995:16)&#10;    at CRPage.takeScreenshot (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:37436:77)&#10;    at async Screenshotter._screenshot (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:21823:26)&#10;    at async C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:21741:20&#10;}&#10;Call log:&#10;-   - taking page screenshot&#10;-   - waiting for fonts to load...&#10;-   - fonts loaded&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='Protocol error (Page.captureScreenshot): Unable to capture screenshot
+  name='Error
+  stack='Error: Protocol error (Page.captureScreenshot): Unable to capture screenshot
+    at C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:34996:61
+    at new Promise (<anonymous>)
+    at _CRSession.send (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:34995:16)
+    at CRPage.takeScreenshot (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:37436:77)
+    at async Screenshotter._screenshot (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:21823:26)
+    at async C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:21741:20
+}
+Call log:
+-   - taking page screenshot
+-   - waiting for fonts to load...
+-   - fonts loaded
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:58)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.PageImpl.screenshotImpl(PageImpl.java:1283)
+	at com.microsoft.playwright.impl.PageImpl.screenshot(PageImpl.java:1236)
+	at com.microsoft.playwright.Page.screenshot(Page.java:7099)
+	at hooks.Hooks.screenshotPorPaso(Hooks.java:34)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='Protocol error (Page.captureScreenshot): Unable to capture screenshot
+  name='Error
+  stack='Error: Protocol error (Page.captureScreenshot): Unable to capture screenshot
+    at C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:34996:61
+    at new Promise (<anonymous>)
+    at _CRSession.send (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:34995:16)
+    at CRPage.takeScreenshot (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:37436:77)
+    at async Screenshotter._screenshot (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:21823:26)
+    at async C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:21741:20
+}
+Call log:
+-   - taking page screenshot
+-   - waiting for fonts to load...
+-   - fonts loaded
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:278)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:230)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.PageImpl.screenshotImpl(PageImpl.java:1283)
+	at com.microsoft.playwright.impl.PageImpl.screenshot(PageImpl.java:1236)
+	at com.microsoft.playwright.Page.screenshot(Page.java:7099)
+	at hooks.Hooks.screenshotPorPaso(Hooks.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+    <system-out><![CDATA[
+@HU_01 @CA_02
+Escenario: HU-01 CA-02 â€” AutenticaciÃ³n en el sistema Orange                &amp#27;[90m# features/Autenticacion.feature:5&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estoy en la pantalla de login&amp#27;[0m                                   &amp#27;[90m# steps.LoginSteps.estoyEnLaPantallaDeLogin()&amp#27;[0m
+
+    Embedding Paso 1 [image/png 57903 bytes]
+
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mingreso credenciales invÃ¡lidas&amp#27;[0m                                    &amp#27;[90m# steps.LoginSteps.ingresoCredencialesInvalidas()&amp#27;[0m
+      &amp#27;[31mcom.microsoft.playwright.PlaywrightException: Error {
+  message='Protocol error (Page.captureScreenshot): Unable to capture screenshot
+  name='Error
+  stack='Error: Protocol error (Page.captureScreenshot): Unable to capture screenshot
+    at C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:34996:61
+    at new Promise (<anonymous>)
+    at _CRSession.send (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:34995:16)
+    at CRPage.takeScreenshot (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:37436:77)
+    at async Screenshotter._screenshot (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:21823:26)
+    at async C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:21741:20
+}
+Call log:
+-   - taking page screenshot
+-   - waiting for fonts to load...
+-   - fonts loaded
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:58)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.PageImpl.screenshotImpl(PageImpl.java:1283)
+	at com.microsoft.playwright.impl.PageImpl.screenshot(PageImpl.java:1236)
+	at com.microsoft.playwright.Page.screenshot(Page.java:7099)
+	at hooks.Hooks.screenshotPorPaso(Hooks.java:34)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='Protocol error (Page.captureScreenshot): Unable to capture screenshot
+  name='Error
+  stack='Error: Protocol error (Page.captureScreenshot): Unable to capture screenshot
+    at C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:34996:61
+    at new Promise (<anonymous>)
+    at _CRSession.send (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:34995:16)
+    at CRPage.takeScreenshot (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:37436:77)
+    at async Screenshotter._screenshot (C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:21823:26)
+    at async C:\Users\juanr\AppData\Local\Temp\playwright-java-13531957265916706968\package\lib\coreBundle.js:21741:20
+}
+Call log:
+-   - taking page screenshot
+-   - waiting for fonts to load...
+-   - fonts loaded
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:278)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:230)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
+	at com.microsoft.playwright.impl.PageImpl.screenshotImpl(PageImpl.java:1283)
+	at com.microsoft.playwright.impl.PageImpl.screenshot(PageImpl.java:1236)
+	at com.microsoft.playwright.Page.screenshot(Page.java:7099)
+	at hooks.Hooks.screenshotPorPaso(Hooks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:56)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:76)
+	at org.junit.platform.suite.engine.SuiteLauncher.execute(SuiteLauncher.java:63)
+	at org.junit.platform.suite.engine.SuiteTestDescriptor.execute(SuiteTestDescriptor.java:128)
+	at org.junit.platform.suite.engine.SuiteTestEngine.lambda$execute$0(SuiteTestEngine.java:73)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.platform.suite.engine.SuiteTestEngine.execute(SuiteTestEngine.java:73)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+&amp#27;[0m
+  &amp#27;[36mEntonces &amp#27;[0m&amp#27;[36mel sistema muestra &amp#27;[0m&amp#27;[36m&amp#27;[1m'Invalid credentials'&amp#27;[0m&amp#27;[36m y no permite el acceso&amp#27;[0m &amp#27;[90m# steps.LoginSteps.elSistemaMuestraMensajeYNoPermiteElAcceso(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Registrar un empleado nuevo" classname="Módulo PIM" time="30.12">
     <system-out><![CDATA[
 Scenario: Registrar un empleado nuevo                            &amp#27;[90m# features/ModuloPim.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mel administrador ha ingresado al sistema&amp#27;[0m                 &amp#27;[90m# steps.LoginSteps.elAdministradorHaIngresadoAlSistema()&amp#27;[0m
@@ -65,11 +289,11 @@ Scenario: Registrar un empleado nuevo                            &amp#27;[90m# f
 
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mel administrador realiza el registro de un empleado nuevo&amp#27;[0m &amp#27;[90m# steps.EmpleadoSteps.registraEmpleadoNuevo()&amp#27;[0m
 
-    Embedding Paso 2 [image/png 98586 bytes]
+    Embedding Paso 2 [image/png 98290 bytes]
 
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mel empleado es registrado en el sistema&amp#27;[0m                   &amp#27;[90m# steps.EmpleadoSteps.empleadoRegistrado()&amp#27;[0m
 
-    Embedding Paso 3 [image/png 98048 bytes]
+    Embedding Paso 3 [image/png 101136 bytes]
 
 ]]></system-out>
   </testcase>

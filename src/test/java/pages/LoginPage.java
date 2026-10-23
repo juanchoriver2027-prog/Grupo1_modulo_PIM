@@ -9,12 +9,14 @@ public class LoginPage extends BasePage {
     private final Locator usernameInput;
     private final Locator passwordInput;
     private final Locator loginButton;
+    private final Locator errorMessage;
 
     public LoginPage(Page page) {
         super(page);
         usernameInput = page.locator("input[name='username']");
         passwordInput = page.locator("input[name='password']");
         loginButton   = page.locator("button[type='submit']");
+        errorMessage  = page.locator(".oxd-alert-content-text");
     }
 
     public LoginPage navigate() {
@@ -22,10 +24,28 @@ public class LoginPage extends BasePage {
         return this;
     }
 
+    public LoginPage waitUntilLoaded() {
+        loginButton.waitFor();
+        return this;
+    }
+
     public DashboardPage loginAs(String user, String password) {
+        attemptLogin(user, password);
+        return new DashboardPage(page);
+    }
+
+    public LoginPage attemptLogin(String user, String password) {
         usernameInput.fill(user);
         passwordInput.fill(password);
         loginButton.click();
-        return new DashboardPage(page);
+        return this;
+    }
+
+    public Locator errorMessage() {
+        return errorMessage;
+    }
+
+    public Locator loginButton() {
+        return loginButton;
     }
 }
